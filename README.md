@@ -7,11 +7,13 @@ This Maven project contains 3 examples of MapReduce jobs implemented with the Tw
 
 # Install and run
 
-**Prerequisites:**
+## Prerequisites:
 * eclipse installed;
+* jdk7 or jdk8 installed;
 * scala-IDE for eclipse installed (http://scala-ide.org/);
 * scala 2.10 or 2.11 installed (http://www.scala-lang.org/)
 
+## Instructions:
 1. clone the project
 2. unzip the $PRJ/examples/data.zip file
 3. use the $PRJ/launch-confs files to run WordCountJob and QuestionEcrites job with eclipse
