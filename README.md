@@ -1,4 +1,4 @@
-# Twitter scalding jobs examples
+# Twitter scalding jobs examples (Maven projet)
 
 This Maven project contains 3 examples of MapReduce jobs implemented with the Twitter Scalding Toolbox (https://github.com/twitter/scalding):
 * a WordCount job wich can be run with the licence.txt file as input;
@@ -6,6 +6,11 @@ This Maven project contains 3 examples of MapReduce jobs implemented with the Tw
 * a Json file tranformation to tsv file (input QEcrites_XIV.json)
 
 # Install and run
+
+**Prerequisites:**
+* eclipse installed;
+* scala-IDE for eclipse installed (http://scala-ide.org/);
+* scala 2.10 or 2.11 installed (http://www.scala-lang.org/)
 
 1. clone the project
 2. unzip the $PRJ/examples/data.zip file
