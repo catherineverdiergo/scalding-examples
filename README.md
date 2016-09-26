@@ -20,7 +20,8 @@ This Maven project contains 3 examples of MapReduce jobs implemented with the Tw
 
 ## Additional notes about QuestionEcrites
 <p>This job can be used to work with a large file available at: <br>
-http://data.assemblee-nationale.fr/static/openData/repository/QUESTIONS/questions_ecrites/Questions_ecrites_XIV.json.zip
+http://data.assemblee-nationale.fr/static/openData/repository/QUESTIONS/questions_ecrites/Questions_ecrites_XIV.json.zip<br>
+Indeed: the QEcrites_XIV.json file supplied in the data.zip archive is only a prettified extract of this file.
 
 <p>Before using the large json file, it is necessary to prettify it with jq (https://stedolan.github.io/jq/) with the command:<br>
 **jq . Questions_Ecrites_XIV.json > QEcrites_XIV.json**
